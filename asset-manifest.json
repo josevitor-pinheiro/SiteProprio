@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SiteProprio/static/css/main.2ca0bf87.css",
+    "main.js": "/SiteProprio/static/js/main.60a0cebb.js",
+    "static/media/contato-fundo.jpg": "/SiteProprio/static/media/contato-fundo.feade5f0dc4f13635f50.jpg",
+    "static/media/fundo-about.jpg": "/SiteProprio/static/media/fundo-about.ad4376cbc3f9939597a3.jpg",
+    "static/media/banner.jpg": "/SiteProprio/static/media/banner.0d7395e679a3addb4aac.jpg",
+    "static/media/fundoAzul.jpg": "/SiteProprio/static/media/fundoAzul.de1025572654107cfe29.jpg",
+    "static/media/binario.webp": "/SiteProprio/static/media/binario.4c37d804a1cd6cf3da7a.webp",
+    "static/media/Calculadora.png": "/SiteProprio/static/media/Calculadora.758af528bc42b596bf4a.png",
+    "static/media/Instagram-copia.png": "/SiteProprio/static/media/Instagram-copia.b2b9bda7695a0c843d77.png",
+    "index.html": "/SiteProprio/index.html",
+    "main.2ca0bf87.css.map": "/SiteProprio/static/css/main.2ca0bf87.css.map",
+    "main.60a0cebb.js.map": "/SiteProprio/static/js/main.60a0cebb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca0bf87.css",
+    "static/js/main.60a0cebb.js"
+  ]
+}
