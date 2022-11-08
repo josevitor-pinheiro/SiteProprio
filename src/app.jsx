@@ -5,11 +5,10 @@ import "./app.css";
 import Header from "./components/header/header";
 import Home from "./components/pages/home/home";
 import Projects from "./components/pages/projects/projects";
-import Habilities from "./components/pages/contents/habilities";
+import Habilities from "./components/pages/habilities/habilities";
 import About from "./components/pages/contents/about";
 import Footer from "./components/pages/footer/footer";
-import Contact from "./components/pages/contact/contact.jsx"
-
+import Contact from "./components/pages/contact/contact.jsx";
 
 function App() {
   return (
@@ -28,8 +27,8 @@ function App() {
         <About />
       </section>
       <section className="Section" id="contact">
-        <Contact/>
-        <Footer/>
+        <Contact />
+        <Footer />
       </section>
     </div>
   );
