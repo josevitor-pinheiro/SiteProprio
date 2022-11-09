@@ -5,6 +5,8 @@
   margin: auto;
   margin-top: 90px;
   justify-content: center;
+  opacity: 0;
+  transition: 3s;
 }
 
 .medium-container {
@@ -43,14 +45,18 @@
 }
 
 #instagram {
-    background-image: url(images-projects/Instagram-copia.png);
+  background-image: url(images-projects/Instagram-copia.png);
 }
 #site {
-    background-image: url(images-projects/site-generico.png);
+  background-image: url(images-projects/site-generico.png);
 }
 
 #futuramente {
   background-image: url(images-projects/emBreve.webp);
   background-position: bottom;
   background-size: cover;
+}
+
+.vizualizado {
+  opacity: 1;
 }

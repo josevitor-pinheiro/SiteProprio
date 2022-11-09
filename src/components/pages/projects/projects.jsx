@@ -1,7 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import "./projects.css";
 
+import { useEffect } from "react";
+
 export default function Projects() {
+
+  useEffect(() => {
+    const obserever = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        console.log("observado", entries);
+        entries[0].target.classList.add("vizualizado");
+      }
+    });
+    obserever.observe(document.querySelector(".big-container"));
+  });
+
   return (
     <div className="big-container">
       <div className="medium-container">

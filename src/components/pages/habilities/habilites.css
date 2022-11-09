@@ -1,0 +1,47 @@
+.big-container-hab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 85%;
+  margin-top: 95px;
+  opacity: 0;
+  transition: 2s;
+}
+
+.medium-container-hab {
+  display: flexbox;
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+}
+
+.small-container-hab {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 100px;
+  color: white;
+}
+
+.img-hab {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.vizualizado {
+  opacity: 1;
+}
+
+#small-container-text {
+  justify-content: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 100px;
+  color: white;
+}
