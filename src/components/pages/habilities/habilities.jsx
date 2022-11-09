@@ -1,6 +1,9 @@
 import React from "react";
+import { useEffect } from "react";
 
 import "./habilites.css";
+
+import arrows from "../../../images/arrow.png";
 
 import css from "./images/css.png";
 import html from "./images/html.png";
@@ -9,7 +12,7 @@ import node from "./images/node.png";
 import react from "./images/react.png";
 import next from "./images/next.png";
 import JS from "./images/JS.jfif";
-import { useEffect } from "react";
+import Vue from "./images/vue.png";
 
 export default function Habilities() {
   useEffect(() => {
@@ -24,20 +27,26 @@ export default function Habilities() {
   return (
     <div className="big-container-hab">
       <div className="medium-container-hab">
-        <div className="small-container-hab">
+        <div id="small-container-hab-cima">
           <img src={html} alt="html-png" className="img-hab" />
           <img src={css} alt="css-png" className="img-hab" />
           <img src={JS} alt="JavaScript" className="img-hab" />
           <img src={react} alt="react-png" className="img-hab" />
+        </div>
+        <div id="small-container-hab-baixo">
           <img src={node} alt="node-png" className="img-hab" />
           <img src={next} alt="next-png" className="img-hab" />
           <img src={git} alt="git-png" className="img-hab" />
+          <img src={Vue} alt="Vue-png" className="img-hab" />
         </div>
         <div id="small-container-text">
           <h2>
             Dominio em Html5, CSS e JavaScript, conhecimento aprofundado em
             ReactJS e NodeJS.
           </h2>
+        </div>
+        <div id="arrow-hab">
+          <a href="#about" id="arrow-hab"></a>
         </div>
       </div>
     </div>

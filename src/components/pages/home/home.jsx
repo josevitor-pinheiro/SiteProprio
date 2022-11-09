@@ -2,7 +2,7 @@ import React from "react";
 
 import "./home.css";
 
-import arrows from "../../../images/arrows-50.png";
+import arrows from "../../../images/arrow.png";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       Home
       <span>José Vitor Pinheiro</span>
       <span>Programador apaixonado por tecnologia</span>
-      <img src={arrows} alt="ArrowsDown" />
+      <img src={arrows} alt="ArrowsDown" id="arrow-home"/>
     </div>
   );
 }

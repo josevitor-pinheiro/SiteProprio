@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import "./projects.css";
 
+import arrows from "../../../images/arrow.png";
+
 import { useEffect } from "react";
 
 export default function Projects() {
-
   useEffect(() => {
     const obserever = new IntersectionObserver((entries) => {
       if (entries.some((entry) => entry.isIntersecting)) {
@@ -44,6 +45,10 @@ export default function Projects() {
         <div className="small-container" id="futuramente"></div>
         <div className="small-container" id="futuramente"></div>
         <div className="small-container" id="futuramente"></div>
+      </div>
+      <div id="arrow">
+        <a href="#habilities">
+        </a>
       </div>
     </div>
   );
