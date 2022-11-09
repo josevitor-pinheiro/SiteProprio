@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SiteProprio/static/css/main.b937a786.css",
-    "main.js": "/SiteProprio/static/js/main.a9e96f09.js",
+    "main.css": "/SiteProprio/static/css/main.5d695b56.css",
+    "main.js": "/SiteProprio/static/js/main.78e37793.js",
     "static/media/contato-fundo.jpg": "/SiteProprio/static/media/contato-fundo.feade5f0dc4f13635f50.jpg",
     "static/media/fundo-about.jpg": "/SiteProprio/static/media/fundo-about.ad4376cbc3f9939597a3.jpg",
     "static/media/banner.jpg": "/SiteProprio/static/media/banner.0d7395e679a3addb4aac.jpg",
@@ -10,16 +10,17 @@
     "static/media/binario.webp": "/SiteProprio/static/media/binario.4c37d804a1cd6cf3da7a.webp",
     "static/media/Calculadora.png": "/SiteProprio/static/media/Calculadora.758af528bc42b596bf4a.png",
     "static/media/css.png": "/SiteProprio/static/media/css.5bdc1c1160e315d09eb9.png",
+    "static/media/arrow.png": "/SiteProprio/static/media/arrow.3db954ee721c31ddbc2d.png",
     "static/media/Instagram-copia.png": "/SiteProprio/static/media/Instagram-copia.b2b9bda7695a0c843d77.png",
     "static/media/next.png": "/SiteProprio/static/media/next.6db19b31cc0a2f63cff4.png",
     "static/media/emBreve.webp": "/SiteProprio/static/media/emBreve.5a72b77e555e4c2da6db.webp",
     "static/media/JS.jfif": "/SiteProprio/static/media/JS.022e140c358d502e3d9c.jfif",
     "index.html": "/SiteProprio/index.html",
-    "main.b937a786.css.map": "/SiteProprio/static/css/main.b937a786.css.map",
-    "main.a9e96f09.js.map": "/SiteProprio/static/js/main.a9e96f09.js.map"
+    "main.5d695b56.css.map": "/SiteProprio/static/css/main.5d695b56.css.map",
+    "main.78e37793.js.map": "/SiteProprio/static/js/main.78e37793.js.map"
   },
   "entrypoints": [
-    "static/css/main.b937a786.css",
-    "static/js/main.a9e96f09.js"
+    "static/css/main.5d695b56.css",
+    "static/js/main.78e37793.js"
   ]
 }
