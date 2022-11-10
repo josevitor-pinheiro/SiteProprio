@@ -45,6 +45,9 @@ body {
   background: linear-gradient(rgb(25, 26, 35, 0.5), rgba(25, 26, 35, 0.5)),
     url("./images/fundo-about.jpg");
   background-size: cover;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact {

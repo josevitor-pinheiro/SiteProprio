@@ -14,23 +14,16 @@
   height: 100%;
   width: 60%;
   justify-content: center;
+  align-items: center;
 }
 
-#small-container-hab-cima {
-  display: flex;
+#small-container-hab {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   height: auto;
   width: 70%;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 50px auto 0px auto;
-  color: white;
-}
-
-#small-container-hab-baixo {
-  display: flex;
-  height: auto;
-  width: 70%;
-  margin: 25px auto 0px auto;
-  justify-content: space-around;
   color: white;
 }
 
@@ -40,15 +33,18 @@
   background-color: white;
   border-radius: 10px;
   padding: 10px;
+  margin: 10px;
 }
 
 #small-container-text {
   justify-content: center;
   display: flex;
   height: auto;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   margin-top: 100px;
   color: white;
+  text-align: center;
 }
 
 .vizualizado {
@@ -58,7 +54,7 @@
 #arrow-hab {
   display: flex;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 #arrow-hab > a {
@@ -69,3 +65,50 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+@media screen and (max-width: 1024px) {
+  #small-container-hab {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  #arrow-hab {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .medium-container-hab {
+    width: 100%;
+  }
+  
+  #small-container-hab {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .big-container-hab {
+    height: 100%;
+  }
+
+  .medium-container-hab {
+    height: 100%;
+  }
+
+  #small-container-hab {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .img-hab {
+    margin: 10px;
+  }
+
+  #small-container-text {
+    margin-top: 25px;
+  }
+
+  #arrow-hab {
+    margin-top: 30px;
+  }
+ }

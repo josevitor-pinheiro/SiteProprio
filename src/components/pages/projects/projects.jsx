@@ -40,15 +40,12 @@ export default function Projects() {
             id="site"
           />
         </div>
-      </div>
-      <div className="medium-container">
         <div className="small-container" id="futuramente"></div>
-        <div className="small-container" id="futuramente"></div>
-        <div className="small-container" id="futuramente"></div>
+        <div className="small-container" id="futuramente-apagar"></div>
+        <div className="small-container" id="futuramente-apagar"></div>
       </div>
       <div id="arrow">
-        <a href="#habilities">
-        </a>
+        <a href="#habilities"></a>
       </div>
     </div>
   );

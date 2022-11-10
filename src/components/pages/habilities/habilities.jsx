@@ -27,13 +27,11 @@ export default function Habilities() {
   return (
     <div className="big-container-hab">
       <div className="medium-container-hab">
-        <div id="small-container-hab-cima">
+        <div id="small-container-hab">
           <img src={html} alt="html-png" className="img-hab" />
           <img src={css} alt="css-png" className="img-hab" />
           <img src={JS} alt="JavaScript" className="img-hab" />
           <img src={react} alt="react-png" className="img-hab" />
-        </div>
-        <div id="small-container-hab-baixo">
           <img src={node} alt="node-png" className="img-hab" />
           <img src={next} alt="next-png" className="img-hab" />
           <img src={git} alt="git-png" className="img-hab" />

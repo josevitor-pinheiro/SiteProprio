@@ -6,7 +6,7 @@ import Header from "./components/header/header";
 import Home from "./components/pages/home/home";
 import Projects from "./components/pages/projects/projects";
 import Habilities from "./components/pages/habilities/habilities";
-import About from "./components/pages/contents/about";
+import About from "./components/pages/about/about";
 import Footer from "./components/pages/footer/footer";
 import Contact from "./components/pages/contact/contact.jsx";
 

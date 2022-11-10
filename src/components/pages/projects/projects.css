@@ -10,10 +10,10 @@
 }
 
 .medium-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   width: 100%;
-  height: 47%;
+  height: 95%;
   justify-content: center;
 }
 
@@ -21,14 +21,10 @@
   display: flex;
   background-color: white;
   margin: 10px;
-  height: auto;
+  height: 350px;
   width: 300px;
 }
 
-.small-container > a > img {
-  width: 100%;
-  height: 80%;
-}
 .small-container > a {
   text-align: center;
   color: black;
@@ -38,6 +34,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.small-container > a > img {
+  width: 100%;
+  height: 80%;
 }
 
 #calculadora {
@@ -52,6 +53,12 @@
 }
 
 #futuramente {
+  background-image: url(images-projects/emBreve.webp);
+  background-position: bottom;
+  background-size: cover;
+}
+
+#futuramente-apagar {
   background-image: url(images-projects/emBreve.webp);
   background-position: bottom;
   background-size: cover;
@@ -72,4 +79,31 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .medium-container {
+    grid-template-columns: auto auto;
+  }
+
+  #futuramente-apagar {
+    display: none;
+  }
+  #arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .big-container {
+    margin-top: 50px;
+  }
+  .small-container {
+    height: 330px;
+    width: 190px;
+  }
+  #arrow {
+    margin-top: 10px;
+    display: flex;
+  }
 }
