@@ -29,16 +29,16 @@ p {
 }
 
 #arrow-home > a {
+  position: sticky;
   height: 90px;
   width: 120px;
   background-image: url(../../../images/arrow.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  margin-top: 20px;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .home-container h1 {
     font-size: 4rem;
     width: 95%;
@@ -52,7 +52,7 @@ p {
   .img-perfil {
     height: 45%;
   }
-  
+
   #arrow-home {
     margin-top: 10px;
   }

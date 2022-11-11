@@ -7,36 +7,44 @@
   top: 0px;
 }
 
+.a-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .Buttons-container {
   backdrop-filter: blur(4px);
   width: 60%;
   display: inline-flex;
   justify-content: space-around;
 }
+
 .Buttons-container a {
-  display: flex;
+  display: flex ;
+  width: 100px;
   align-items: center;
-  justify-content: center;
   font-size: x-large;
   text-align: center;
   color: blueviolet;
   text-decoration: none;
   background-color: transparent;
-  display: flexbox;
-  width: 20%;
+  width: auto;
   border: none;
+  padding:10px;
 }
+
 .Buttons-container a:hover {
   opacity: 1;
   border-bottom: solid 1px blueviolet;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width: 1024px) {
   .Buttons-container {
     width: 100%;
   }
 }
-@media screen and (max-width:425px){
+@media screen and (max-width: 623px) {
   .Header-container {
     display: none;
   }

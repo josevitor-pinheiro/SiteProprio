@@ -6,11 +6,21 @@ export default function Header() {
   return (
     <div className="Header-container">
       <div className="Buttons-container">
-        <a href="#home">Inicio</a>
-        <a href="#projects">Projetos</a>
-        <a href="#habilities"> Habilidades</a>
-        <a href="#about">Sobre mim</a>
-        <a href="#contact">Contato</a>
+        <div className="a-container">
+          <a href="#home">Inicio</a>
+        </div>
+        <div className="a-container">
+          <a href="#projects">Projetos</a>
+        </div>
+        <div className="a-container">
+          <a href="#habilities"> Habilidades</a>
+        </div>
+        <div className="a-container">
+          <a href="#about">Sobre mim</a>
+        </div>
+        <div className="a-container">
+          <a href="#contact">Contato</a>
+        </div>
       </div>
     </div>
   );
