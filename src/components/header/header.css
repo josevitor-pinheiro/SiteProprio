@@ -5,33 +5,28 @@
   height: 10%;
   position: fixed;
   top: 0px;
-}
-
-.a-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+  z-index: 1;
 }
 
 .Buttons-container {
   backdrop-filter: blur(4px);
   width: 60%;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .Buttons-container a {
-  display: flex ;
-  width: 100px;
+  display: flex;
+  width: 20%;
   align-items: center;
+  justify-content: center;
   font-size: x-large;
   text-align: center;
   color: blueviolet;
   text-decoration: none;
   background-color: transparent;
-  width: auto;
   border: none;
-  padding:10px;
+  padding: 10px;
 }
 
 .Buttons-container a:hover {

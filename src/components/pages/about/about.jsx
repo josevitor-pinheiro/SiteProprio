@@ -9,6 +9,9 @@ export default function About() {
         programador fullstack, atualmente trabalho remotamente como programador
         front-end autonomo, morando em Três Cachoeiras Rio grande do sul.
       </article>
+      <div id="arrow-about">
+        <a href="#contact" id="arrow-about"></a>
+      </div>
     </div>
   );
 }
