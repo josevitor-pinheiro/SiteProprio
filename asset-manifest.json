@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SiteProprio/static/css/main.999d1f60.css",
-    "main.js": "/SiteProprio/static/js/main.9d55e851.js",
+    "main.css": "/SiteProprio/static/css/main.f14d200b.css",
+    "main.js": "/SiteProprio/static/js/main.17fdfd66.js",
     "static/media/contato-fundo.jpg": "/SiteProprio/static/media/contato-fundo.feade5f0dc4f13635f50.jpg",
     "static/media/fundo-about.jpg": "/SiteProprio/static/media/fundo-about.ad4376cbc3f9939597a3.jpg",
     "static/media/banner.jpg": "/SiteProprio/static/media/banner.0d7395e679a3addb4aac.jpg",
@@ -16,11 +16,11 @@
     "static/media/emBreve.webp": "/SiteProprio/static/media/emBreve.5a72b77e555e4c2da6db.webp",
     "static/media/JS.jfif": "/SiteProprio/static/media/JS.022e140c358d502e3d9c.jfif",
     "index.html": "/SiteProprio/index.html",
-    "main.999d1f60.css.map": "/SiteProprio/static/css/main.999d1f60.css.map",
-    "main.9d55e851.js.map": "/SiteProprio/static/js/main.9d55e851.js.map"
+    "main.f14d200b.css.map": "/SiteProprio/static/css/main.f14d200b.css.map",
+    "main.17fdfd66.js.map": "/SiteProprio/static/js/main.17fdfd66.js.map"
   },
   "entrypoints": [
-    "static/css/main.999d1f60.css",
-    "static/js/main.9d55e851.js"
+    "static/css/main.f14d200b.css",
+    "static/js/main.17fdfd66.js"
   ]
 }
