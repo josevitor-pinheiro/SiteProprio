@@ -7,8 +7,9 @@ import Footer from "./footer/footer";
 export default function Contact() {
   return (
     <div className="big-container-contact">
-      <div className="medium-container-contact"></div>
-      <Footer />
+      <div className="medium-container-contact">
+        <Footer />
+      </div>
     </div>
   );
 }

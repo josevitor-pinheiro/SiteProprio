@@ -1,10 +1,11 @@
 .big-container-contact {
-    display: flexbox;
-    height: 100%;
-    width: 100%;
+  display: flexbox;
+  height: 100%;
+  width: 100%;
 }
 
 .medium-container-contact {
-    width: 100%;
-    height: 95%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
