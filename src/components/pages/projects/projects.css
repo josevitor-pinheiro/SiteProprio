@@ -1,19 +1,20 @@
 .big-container {
   display: flexbox;
-  height: 85%;
+  height: 100%;
   width: 80%;
   margin: auto;
   margin-top: 90px;
   justify-content: center;
   opacity: 0;
   transition: 3s;
+  position: relative;
 }
 
 .medium-container {
   display: grid;
   grid-template-columns: auto auto auto;
   width: 100%;
-  height: 95%;
+  height: 100%;
   justify-content: center;
 }
 
@@ -71,8 +72,14 @@
 #arrow {
   display: flex;
   justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
 }
 #arrow > a {
+  position: relative;
   height: 90px;
   width: 120px;
   background-image: url(../../../images/arrow.png);
@@ -100,6 +107,9 @@
   .big-container {
     margin-top: 30px;
     width: 100%;
+  }
+
+  .medium-container {
     height: 90%;
   }
   .small-container {
@@ -107,7 +117,40 @@
     width: 45vw;
   }
   #arrow {
-    margin-top: 10px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .big-container {
+    margin-top: 0px;
+  }
+  .medium-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .small-container {
+    background-color: transparent;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 95%;
+    height: 500px;
+  }
+
+  .small-container > a {
+    background-size: contain;
+  }
+
+  #site-generico {
+    height: 40vh;
+  }
+
+  #futuramente {
     display: none;
   }
 }

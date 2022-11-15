@@ -20,7 +20,7 @@ body {
 .Section {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
 }
 
 #home {
@@ -54,4 +54,11 @@ body {
   background: linear-gradient(rgb(25, 26, 35, 0.5), rgba(25, 26, 35, 0.5)),
     url("./images/contato-fundo.jpg");
   background-size: cover;
+}
+
+
+@media screen and (max-width:500px) {
+  #projects {
+    height: 190vh;
+  }
 }

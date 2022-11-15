@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <div className="big-container">
       <div className="medium-container">
-        <div className="small-container">
+        <div className="small-container" >
           <a
             href="https://glittering-mousse-40a63b.netlify.app"
             target="_"
@@ -33,7 +33,7 @@ export default function Projects() {
             id="instagram"
           />
         </div>
-        <div className="small-container">
+        <div className="small-container" id="site-generico">
           <a
             href="https://josevitor-pinheiro.github.io/Site-Generico/"
             target="_"

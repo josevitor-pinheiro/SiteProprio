@@ -3,8 +3,6 @@ import { useEffect } from "react";
 
 import "./habilites.css";
 
-import arrows from "../../../images/arrow.png";
-
 import css from "./images/css.png";
 import html from "./images/html.png";
 import git from "./images/github.png";
