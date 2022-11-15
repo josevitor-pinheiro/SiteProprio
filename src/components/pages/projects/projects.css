@@ -22,7 +22,7 @@
   display: flex;
   background-color: white;
   margin: 10px;
-  height: 350px;
+  height: 370px;
   width: 300px;
 }
 
@@ -87,11 +87,11 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   #arrow {
     display: none;
-  }
-}
+  } */
+/* } */
 
 @media screen and (max-width: 940px) {
   .medium-container {
@@ -136,8 +136,8 @@
   .small-container {
     background-color: transparent;
     margin: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 95%;
     height: 500px;
   }
@@ -152,5 +152,11 @@
 
   #futuramente {
     display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .small-container {
+    height: 410px;
   }
 }

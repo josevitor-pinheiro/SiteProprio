@@ -44,9 +44,6 @@ export default function Projects() {
         <div className="small-container" id="futuramente-apagar"></div>
         <div className="small-container" id="futuramente-apagar"></div>
       </div>
-      <div id="arrow">
-        <a href="#habilities"></a>
-      </div>
     </div>
   );
 }

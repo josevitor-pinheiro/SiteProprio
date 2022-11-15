@@ -59,6 +59,6 @@ body {
 
 @media screen and (max-width:500px) {
   #projects {
-    height: 190vh;
+    height: 160vh;
   }
 }
