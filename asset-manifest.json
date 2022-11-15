@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SiteProprio/static/css/main.036643f9.css",
-    "main.js": "/SiteProprio/static/js/main.4425aa28.js",
+    "main.css": "/SiteProprio/static/css/main.e147bce8.css",
+    "main.js": "/SiteProprio/static/js/main.af8aa74c.js",
     "static/media/contato-fundo.jpg": "/SiteProprio/static/media/contato-fundo.feade5f0dc4f13635f50.jpg",
     "static/media/fundo-about.jpg": "/SiteProprio/static/media/fundo-about.ad4376cbc3f9939597a3.jpg",
     "static/media/banner.jpg": "/SiteProprio/static/media/banner.0d7395e679a3addb4aac.jpg",
@@ -16,11 +16,11 @@
     "static/media/emBreve.webp": "/SiteProprio/static/media/emBreve.5a72b77e555e4c2da6db.webp",
     "static/media/JS.jfif": "/SiteProprio/static/media/JS.022e140c358d502e3d9c.jfif",
     "index.html": "/SiteProprio/index.html",
-    "main.036643f9.css.map": "/SiteProprio/static/css/main.036643f9.css.map",
-    "main.4425aa28.js.map": "/SiteProprio/static/js/main.4425aa28.js.map"
+    "main.e147bce8.css.map": "/SiteProprio/static/css/main.e147bce8.css.map",
+    "main.af8aa74c.js.map": "/SiteProprio/static/js/main.af8aa74c.js.map"
   },
   "entrypoints": [
-    "static/css/main.036643f9.css",
-    "static/js/main.4425aa28.js"
+    "static/css/main.e147bce8.css",
+    "static/js/main.af8aa74c.js"
   ]
 }
