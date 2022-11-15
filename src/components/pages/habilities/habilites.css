@@ -144,3 +144,9 @@
     margin: 2px;
   }
 }
+
+@media screen and (max-height: 725px) {
+ #arrow-hab {
+  display: none;
+ }
+}
